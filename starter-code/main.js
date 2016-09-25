@@ -35,9 +35,9 @@ function isTwoCards() {
 	cardsInPlay.push(this.getAttribute('data-card'));
 	// flip card to show image
 	if (this.getAttribute('data-card') == 'king') {
-		this.innerHTML = '<img src="playing-card-king.jpg" alt="King of Spades"/>'	
+		this.innerHTML = '<img src="playing-card-king-cropped.jpg" alt="King of Spades"/>'
 	} else {
-		this.innerHTML = '<img src="playing-card-queen.jpg" alt="Queen of Spades"/>'		
+		this.innerHTML = '<img src="playing-card-queen-cropped.jpg" alt="Queen of Spades"/>'
 	}
 	// set time delay to allow second image to be shown
 	var delay = 50;
